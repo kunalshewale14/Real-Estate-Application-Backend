@@ -1,0 +1,60 @@
+/*  EDIT PROPERTY PAGE STYLES  */
+
+.edit-wrapper {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.edit-title {
+  font-size: 1.8rem;
+  color: #4a90e2;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.edit-form input,
+.edit-form textarea,
+.edit-form select {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus,
+.edit-form select:focus {
+  border-color: #4a90e2;
+}
+
+.edit-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.edit-form button {
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-form button:hover {
+  background-color: #357ab8;
+}
