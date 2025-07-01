@@ -1,0 +1,53 @@
+.home-wrapper {
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto 0 auto; 
+  text-align: center;
+  margin-top: 12%;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2b6cb0;
+  margin-bottom: 10px;
+}
+
+.home-sub {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+
+.home-cta {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.home-cta .btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  background-color: #2b6cb0;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.home-cta .btn:hover {
+  background-color: #1e4f8c;
+}
+
+.home-cta .btn.btn-outline {
+  background-color: transparent;
+  color: #2b6cb0;
+  border: 2px solid #2b6cb0;
+}
+
+.home-cta .btn.btn-outline:hover {
+  background-color: #2b6cb0;
+  color: white;
+}
